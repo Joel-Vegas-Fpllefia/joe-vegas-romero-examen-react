@@ -1,14 +1,53 @@
 {
   "$schema": "./node_modules/json-server/schema.json",
   "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
   ],
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "todos": [
+    {
+      "id": "1",
+      "title": "Text de la tasca",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2026-02-02T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Text de la tasca",
+      "completed": true,
+      "priority": "medium",
+      "createdAt": "2026-02-02T09:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "adsasd",
+      "completed": false,
+      "priority": "asdasd",
+      "createdAt": "03/02/2026"
+    }
+  ]
 }
